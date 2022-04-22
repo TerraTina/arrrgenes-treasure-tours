@@ -148,3 +148,30 @@ body {
 .footer * {
   margin: 0;
 }
+
+.nav a:hover {
+  background-color: #bea59b;
+}
+
+.banner a:hover {
+  background-color: #fff;
+  color: #522806;
+  outline: 3px solid #bea59b;
+}
+
+.card a:hover {
+  background-color: #522806;
+  color: #fff;
+}
+
+a:focus {
+  outline-offset: .2em;
+}
+
+.nav a:focus {
+  outline: 3px solid #fff;
+}
+
+.card a:focus {
+  outline: 3px solid #522806;
+}
