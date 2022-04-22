@@ -156,7 +156,6 @@ body {
 .banner a:hover {
   background-color: #fff;
   color: #522806;
-  outline: 3px solid #bea59b;
 }
 
 .card a:hover {
@@ -170,8 +169,17 @@ a:focus {
 
 .nav a:focus {
   outline: 3px solid #fff;
+  background-color: #bea59b;
+}
+
+.class a:focus {
+  outline: 3px solid #fff;
+  background-color: #fff;
+  color: #522806;
 }
 
 .card a:focus {
   outline: 3px solid #522806;
+  background-color: #522806;
+  color: #fff;
 }
